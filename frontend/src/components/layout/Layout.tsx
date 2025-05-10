@@ -5,9 +5,9 @@ import { Sidebar } from './sidebar/Sidebar'
 
 export function Layout({ children }: PropsWithChildren<unknown>) {
 	return (
-		<div>
+		<main className='flex '>
 			<Sidebar />
 			<Content>{children}</Content>
-		</div>
+		</main>
 	)
 }

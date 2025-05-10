@@ -4,7 +4,7 @@
 	--color-background: #191b28;
 	--color-foreground: #f6f6f6;
 	--color-primary: #ad2528;
-
+	--padding-layout: 2rem;
 	--color-white: #fff;
 	--color-border: #2a3439;
 
@@ -33,4 +33,8 @@ body {
 	background: var(--background);
 	color: var(--white);
 	font-family: var(--font-sans);
+	// padding: 1rem;
+	// main {
+	// 	padding: 1rem;
+	// }
 }
