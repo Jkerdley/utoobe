@@ -1,0 +1,6 @@
+{
+	"tailwindCSS.experimental.configFile": {
+		"X:\\DEV\\utoobe\\frontend\\src\\app\\globals.scss": "src/**/*"
+	},
+	"tailwindCSS.trace.server": "verbose"
+}
