@@ -14,7 +14,9 @@ export function MenuItem({ item, isActive }: Props) {
 				href={item.link}
 				className={cn('group flex py-3 items-center gap-4 hover:text-primary transition-colors ')}
 			>
-				<item.icon className='min-w-6 transition group-hover:scale-90 group-hover:rotate-6' />
+				<item.icon
+					className={cn('min-w-6 transition', { 'group-hover:scale-90 group-hover:rotate-6': !isActive })}
+				/>
 				<span className={cn('border-b', { 'border-primary': isActive, 'border-transparent': !isActive })}>
 					{item.label}
 				</span>
