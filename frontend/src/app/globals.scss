@@ -4,16 +4,19 @@
 	--color-background: #191b28;
 	--color-foreground: #f6f6f6;
 	--color-primary: #ad2528;
-
+	--padding-layout: 1.3rem;
 	--color-white: #fff;
 	--color-border: #2a3439;
-
-	// --font-sans: "Geist", "Montserrat", "Helvetica", sans-serif;
+	// --duration-default: 300ms;
+	// --ease-default: ease-in-out;
+	// --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+	/* --font-sans: "Geist", "Montserrat", "Helvetica", sans-serif;*/
 	--font-mono: monospace;
 	--breakpoint-3xl: 130rem;
 }
 
 :root {
+	--sidebar-width: 15rem;
 	--background: var(--color-background);
 	--foreground: var(--color-foreground);
 	--primary: var(--color-primary);
@@ -33,4 +36,8 @@ body {
 	background: var(--background);
 	color: var(--white);
 	font-family: var(--font-sans);
+	// padding: 1rem;
+	// main {
+	// 	padding: 1rem;
+	// }
 }
