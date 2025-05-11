@@ -9,7 +9,7 @@ export interface Channel {
 	avatarUrl: string
 	bannerUrl: string
 	// user: string
-	videos: Video
+	videos: Video[]
 	subscribers: []
 	createdAt: string
 }
