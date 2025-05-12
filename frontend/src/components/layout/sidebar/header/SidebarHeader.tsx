@@ -17,7 +17,7 @@ export function SidebarHeader({ toggleSidebar }: { toggleSidebar: () => void }) 
 
 			<Link
 				href={PAGE.HOME}
-				className='flex gap- items-center'
+				className='flex gap-1 items-center '
 			>
 				<SquarePlay
 					color={COLORS.primary}

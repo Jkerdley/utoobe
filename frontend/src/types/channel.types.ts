@@ -8,8 +8,8 @@ export interface Channel {
 	isVerified: boolean
 	avatarUrl: string
 	bannerUrl: string
-	// user: string
-	videos: Video
+	user: string
+	videos: Video[]
 	subscribers: []
 	createdAt: string
 }
