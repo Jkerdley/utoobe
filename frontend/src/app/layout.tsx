@@ -13,7 +13,10 @@ const notoSans = Noto_Sans({
 })
 
 export const metadata: Metadata = {
-	title: 'uToobe media center',
+	title: {
+		absolute: 'uToobe media center',
+		template: `%s | uToobe`
+	},
 	description: 'Center of all worlds media'
 }
 
