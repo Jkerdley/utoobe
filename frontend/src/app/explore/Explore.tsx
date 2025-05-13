@@ -1,7 +1,9 @@
 'use client'
 
 import { useQuery } from '@tanstack/react-query'
+import { Compass } from 'lucide-react'
 
+import { Heading } from '@/ui/Heading'
 import { SkeletonLoader } from '@/ui/SkeletonLoader'
 import { VideoItem } from '@/ui/video-item/VideoItem'
 
@@ -15,7 +17,7 @@ export default function Explore() {
 
 	return (
 		<section>
-			<h2>Explore</h2>
+			<Heading Icon={Compass}>Explore</Heading>
 			<div className='grid grid-cols-5 gap-6'>
 				{isLoading ? (
 					<SkeletonLoader
