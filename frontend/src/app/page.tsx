@@ -7,8 +7,8 @@ import { VideoItem } from '@/ui/video-item/VideoItem'
 import Explore from './explore/Explore'
 import { videoService } from '@/services/video.service'
 
-export const revalidate = 100
 export const dynamic = 'force-static'
+export const revalidate = 100
 
 export const metadata: Metadata = {
 	title: 'Utoobe',
@@ -28,7 +28,7 @@ export default async function Home() {
 	const trendingVideos = data.slice(0, 6)
 	return (
 		<section>
-			<section>
+			<article>
 				<Heading Icon={Compass}>Trending</Heading>
 				<div className='grid grid-cols-5 gap-6'>
 					{data.length &&
@@ -40,7 +40,7 @@ export default async function Home() {
 							/>
 						))}
 				</div>
-			</section>
+			</article>
 			<Explore />
 		</section>
 	)
